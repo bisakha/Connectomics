@@ -24,7 +24,7 @@ The starter kit includes sample data files from 100 and 1000 neuron networks, th
 
 3) NETWORK = network_mockvalid.csv and network_mocktest.csv: comma separated files representing the network architecture. Each row is a connection. The column structure is of the form I,J,W denoting a connection from I to J with weight W. Connections with positive weight (usually 1) are present. Pairs that are absent or have a weight -1 are inexistent or blocked in the simulations (which is the same thing as far as this challenge is concerned).
 
-All data have the same three files, prefixed with fluorescence_, networkPositions_, and network_. The postfix "mockvalid"  or "muckiest" is the network name. When you substitute the sample data for the challenge data, this should be replaced.
+All data have the same three files, prefixed with fluorescence_, networkPositions_, and network_. The postfix "mockvalid"  or "mocktest" is the network name. When you substitute the sample data for the challenge data, this should be replaced.
 
 SAMPLE NETWORK RECONSTRUCTION CODE
 ==================================
