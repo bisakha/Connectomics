@@ -19,7 +19,9 @@ SAMPLE DATA
 The starter kit includes sample data files from 100 and 1000 neuron networks, that are used for validation and testing in the challenge.
 
 1) FLUORESCENCE = fluorescence_mockvalid.csv and fluorescence_mocktest.csv: comma separated files including time series of neural activity, each row representing a sample and each column a neuron. Signal is sampled at 20ms intervals.
+
 2) NETWORK POSITIONS = networkPositions_mockvalid.csv and networkPositions_mocktest.csv: comma separated files, each row representing a neuron. First column is the X position and second column the Y position. Neurons span a 1mm2 square area.
+
 3) NETWORK = network_mockvalid.csv and network_mocktest.csv: comma separated files representing the network architecture. Each row is a connection. The column structure is of the form I,J,W denoting a connection from I to J with weight W. Connections with positive weight (usually 1) are present. Pairs that are absent or have a weight -1 are inexistent or blocked in the simulations (which is the same thing as far as this challenge is concerned).
 
 All data have the same three files, prefixed with fluorescence_, networkPositions_, and network_. The postfix "mockvalid"  or "muckiest" is the network name. When you substitute the sample data for the challenge data, this should be replaced.
