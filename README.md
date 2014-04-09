@@ -29,7 +29,7 @@ SAMPLE NETWORK RECONSTRUCTION CODE
 The main entry point of the starter kit is:
 > $ python challengeMain.py
 
-The script takes a few minutes to run on the sample network of 100 neurons and a few hours on the actual validation and test networks of 1000 neurons. 
+The script takes a few minutes to run on the sample network of 100 neurons and the actual validation and test networks of 1000 neurons. 
 
 1) Load the fluorescence file as a matrix F, neurons in columns; each line is a time sample.
 2) Perform various steps to compute scores for neuron i -> neuron j using a choice of methods, including the GTE algorithm, from Stetter, O., Battaglia, D., Soriano, J. & Geisel, T. Model-free reconstruction of excitatory neuronal connectivity from calcium imaging signals. PLoS Comput Biol 8, e1002653 (2012). This code also produces graphs similar to those of the paper.
