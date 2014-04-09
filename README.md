@@ -41,17 +41,25 @@ NET_neuronI_neuronJ Strength indicating the "confidence" that neuron i -> neuron
 FUNCTIONS
 =================================
 randomScore
-pearsonsCorrelation
+
+pearsonsCorrelation 
+
 Crosscorrelation
 
 INSTALLATION
 ============
 The code requires Python version 2.7.3
+
 It was tested under
+
 Intel(R) Core(TM) i7-3770 CPU @ 3.40 GHz 3.40 GHz, 16.0 GB RM, 16339 MB Swap, OS Windows 64 bit
+
 and
+
 Intel Core i5 CPU @ 2.53 HHz 4 GB RM, Mac OSX 10.6.8
+
 using the following library versions:
+
 numpy 1.7.1 
 scipy 0.12.0 
 pandas 0.13.0 
