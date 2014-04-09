@@ -32,8 +32,11 @@ The main entry point of the starter kit is:
 The script takes a few minutes to run on the sample network of 100 neurons and the actual validation and test networks of 1000 neurons. 
 
 1) Load the fluorescence file as a matrix F, neurons in columns; each line is a time sample.
+
 2) Perform various steps to compute scores for neuron i -> neuron j using a choice of methods, including the GTE algorithm, from Stetter, O., Battaglia, D., Soriano, J. & Geisel, T. Model-free reconstruction of excitatory neuronal connectivity from calcium imaging signals. PLoS Comput Biol 8, e1002653 (2012). This code also produces graphs similar to those of the paper.
+
 The resulting "scores" matrix is a matrix N x N, N being the number of neurons, each entry (i, j) indicating the "confidence" that neuron i -> neuron j. Presently, only random scores technique is implemented in Python.
+
 3) Writes the scores in Kaggle submission format as a 2-column csv file
 NET_neuronI_neuronJ Strength indicating the "confidence" that neuron i -> neuron j.
 
