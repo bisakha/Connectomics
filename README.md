@@ -43,6 +43,7 @@ The resulting "scores" matrix is a matrix N x N, N being the number of neurons, 
 NET_neuronI_neuronJ Strength indicating the "confidence" that neuron i -> neuron j.
 
 
+
 FUNCTIONS
 =================================
 randomScore
