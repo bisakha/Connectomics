@@ -154,15 +154,17 @@ def main():
 
        networkIdNames.append('mockvalid')  # You can run the code as is with these options
 
-       networkIdNames.append('mocktest')   # To generate a challenge submission, substitute mockvalid and mocktest for valid and test
-
-                                           # that are the challenge datasets.
+       networkIdNames.append('mocktest')   # To generate a challenge submission, substitute mockvalid and 
+       
+                                           # mocktest for valid and test that are the challenge datasets.
  
        scoringMethods = [];
 
-       scoringMethods.append('pearsonsCorrelation'); # We provide 3 "basic" examples of scoring methods. You need to write your own.
-
-                                                     # We did not implement GTE (see the Matlab and C++ code for that).
+       scoringMethods.append('pearsonsCorrelation'); # We provide 3 "basic" examples of scoring methods. You need
+       
+                                                     # to write your own. We did not implement GTE 
+                                                     
+                                                     # (see the Matlab and C++ code for that).
 
        #scoringMethods.append('crossCorrelation');  
 
