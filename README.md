@@ -42,8 +42,7 @@ The resulting "scores" matrix is a matrix N x N, N being the number of neurons, 
 3) Writes the scores in Kaggle submission format as a 2-column csv file
 NET_neuronI_neuronJ Strength indicating the "confidence" that neuron i -> neuron j.
 
-4) The code appends results for valid and test in Kaggle submission format in a file named as
-[algorith name]_[dataset1]_[dataset2]_[datetime]_kaggle_ready.csv which can be submitted for evaluation.
+4) The code appends results for valid and test in Kaggle submission format in a file named as [algoname]_[dataset1]_[dataset2]_[datetime]_kaggle_ready.csv which can be submitted for evaluation.
 
 
 RESULTS
