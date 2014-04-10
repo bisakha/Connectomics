@@ -150,9 +150,9 @@ def main():
 
        #networkIdNames.append('iNet1_Size100_CC06inh')
 
-       networkIdNames.append('valid')  # You can run the code as is with these options
+       networkIdNames.append('mockvalid')  # You can run the code as is with these options
 
-       networkIdNames.append('test')   # To generate a challenge submission, substitute mockvalid and mocktest for valid and test
+       networkIdNames.append('mocktest')   # To generate a challenge submission, substitute mockvalid and mocktest for valid and test
 
                                            # that are the challenge datasets.
  
