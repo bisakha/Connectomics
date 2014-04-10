@@ -48,16 +48,14 @@ NET_neuronI_neuronJ Strength indicating the "confidence" that neuron i -> neuron
 RESULTS
 ================================
 
-| Algorithm                       | Network    | Time to process big network    | OS        | Python version                     | AUC     |
-|---------------------------------|------------|--------------------------------|-----------|------------------------------------|---------|
-| Correlation                     | Normal-1   | 73.3740000725 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.68186 |
-| Correlation                     | Normal-2   | 150.825000048 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.69956 |
-| Correlation                     | Valid      | 130.039999962 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.6639  |
-| Correlation with discretization | Normal-1   | 565.462999821 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.6752  |
-|                                 |            | = 9.4244 mins                  |           |                                    |         |
-| Correlation with discretization | Normal-2   | 1089.74799991 s = 18.162  mins | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.75773 |
-| Correlation with discretization | Valid      | 1054.31400013 s = 17.572 mins  | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.87322 |
-
+| Algorithm                       | Bins          | Network  | Time to process big network    | OS        | Python version                     | AUC     |
+|---------------------------------|---------------|----------|--------------------------------|-----------|------------------------------------|---------|
+| Correlation                     |               | Normal-1 | 73.3740000725 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.68186 |
+| Correlation                     |               | Normal-2 | 150.825000048 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.69956 |
+| Correlation                     |               | Valid    | 130.039999962 s                | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.6639  |
+| Correlation with discretization | [-10,0.12,10] | Normal-1 | 565.462999821 s =  9.4244 mins | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.6752  |
+| Correlation with discretization | [-10,0.12,10] | Normal-2 | 1089.74799991 s = 18.162  mins | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.75773 |
+| Correlation with discretization | [-10,0.12,10] | Valid    | 1054.31400013 s = 17.572 mins  | Windows 7 | 2.7.3  [MSC v.1500 64 bit (AMD64)] | 0.87322 |
 
 
 FUNCTIONS
