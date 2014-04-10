@@ -1,3 +1,5 @@
+#Code from http://code.google.com/p/pyamg/source/browse/trunk/pyamg/gallery/sprand.py?r=588
+
 """Random sparse matrices"""
 
 import numpy
