@@ -119,8 +119,8 @@ def discretizeFluorescenceSignal(F):
     #print len(diff_F)                           
     #print F_min.shape[0]                            
     hits = []                           
-    bins = [3]
-    #bins = [-10,0.12,10] #default for GTE = [-10,0.12,10], default original: 3
+    #bins = [3]
+    bins = [-10,0.12,10] #default for GTE = [-10,0.12,10], default original: 3
     
     if(relativeBins):                           
                                   
