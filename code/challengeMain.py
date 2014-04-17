@@ -82,6 +82,10 @@ if (os.name == "nt"):
 
        filesep = '\\'
 
+elif (os.name == "posix"):
+
+       filesep = '/'
+
 else:
 
        filesep = filesep
