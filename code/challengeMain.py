@@ -74,7 +74,7 @@ from readNetworkScoresCode import readNetworkScores
 
 from computePearsonsCorrelation import computePearsonsCorrelation
 
-
+from computeIGCI import computeIGCI
 
 if (os.name == "nt"):
 
@@ -98,7 +98,9 @@ funcdict = {
 
   'crossCorrelation':computeCrossCorrelation,
 
-  'pearsonsCorrelation':computePearsonsCorrelation
+  'pearsonsCorrelation':computePearsonsCorrelation,
+
+  'information-geometry-causal-inference':computeIGCI
 
 }
 
@@ -165,6 +167,10 @@ def main():
        #scoringMethods.append('crossCorrelation');  
 
        #scoringMethods.append('randomScore');
+
+       #scoringMethods.append('computeGranger');
+
+       #scoringMethods.append('information-geometry-causal-inference'); 
 
        modelName = 'sample_model' # Name of the model used by the trainedPredictor scoring method
 
