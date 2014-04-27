@@ -144,27 +144,27 @@ def main():
 
        #networkIdNames.append('normal-2')
 
-       networkIdNames.append('iNet1_Size100_CC01inh')
+       #networkIdNames.append('iNet1_Size100_CC01inh')
 
-       networkIdNames.append('iNet1_Size100_CC02inh')
+       #networkIdNames.append('iNet1_Size100_CC02inh')
 
-       networkIdNames.append('iNet1_Size100_CC03inh')
+       #networkIdNames.append('iNet1_Size100_CC03inh')
 
-       networkIdNames.append('iNet1_Size100_CC04inh')
+       #networkIdNames.append('iNet1_Size100_CC04inh')
 
-       networkIdNames.append('iNet1_Size100_CC05inh')
+       #networkIdNames.append('iNet1_Size100_CC05inh')
 
-       networkIdNames.append('iNet1_Size100_CC06inh')
+       #networkIdNames.append('iNet1_Size100_CC06inh')
 
-       #networkIdNames.append('mockvalid')  # You can run the code as is with these options
+       networkIdNames.append('mockvalid')  # You can run the code as is with these options
 
-       #networkIdNames.append('mocktest')   # To generate a challenge submission, substitute mockvalid and mocktest for valid and test
+       networkIdNames.append('mocktest')   # To generate a challenge submission, substitute mockvalid and mocktest for valid and test
 
                                            # that are the challenge datasets.
  
        scoringMethods = [];
 
-       #scoringMethods.append('pearsonsCorrelation'); # We provide 3 "basic" examples of scoring methods. You need to write your own.
+       scoringMethods.append('pearsonsCorrelation'); # We provide 3 "basic" examples of scoring methods. You need to write your own.
 
                                                      # We did not implement GTE (see the Matlab and C++ code for that).
 
@@ -176,7 +176,7 @@ def main():
 
        #scoringMethods.append('information-geometry-causal-inference');
 
-       scoringMethods.append('mutualinformation'); 
+       #scoringMethods.append('mutualinformation'); 
                                                 
 
        modelName = 'sample_model' # Name of the model used by the trainedPredictor scoring method
