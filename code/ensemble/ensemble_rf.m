@@ -26,7 +26,7 @@ scores_GTE =  full(computeGTE(D, G));
  %%%%%% SVM Code starts here %%%%%%%%%%%%%%%%%%%%
  
 for j = 1:10
-data_splits=split_data _multiclass(targets,1, 10);
+data_splits=split_data_multiclass(targets,1, 10);
 col = 0;
 for i = 1:length(data_splits)
     test_index = data_splits{i};
