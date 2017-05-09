@@ -26,12 +26,12 @@ scores_GTE =  full(computeGTE(D, G));
  %%%%%% SVM Code starts here %%%%%%%%%%%%%%%%%%%%
  
 for j = 1:10
-data_splits=split_data _multiclass(targets,1, 10);
+data_splits=split_data_multiclass(targets,1, 10);
 col = 0;
 for i = 1:length(data_splits)
     test_index = data_splits{i};
     train_index = cell2mat(data_splits(setdiff(1:10,i)));
-  [prediction_continuous, prediction_discrete, model]=cl_SVM _mod(scaled_data,targets,train_index,test_index,'linear',1);
+  [prediction_continuous, prediction_discrete, model]=cl_SVM(scaled_data,targets,train_index,test_index,'linear',1);
  %[prediction_continuous, prediction_discrete, model]=cl_SVM _mod(data, targets, train_index, test_index,'poly',1000,3);
     %[prediction_continuous, prediction_discrete, model]=cl_SVM _mod(scaled_data,targets,train_index,test_index,'linear',10);
     %[prediction_continuous, prediction_discrete, model]=cl_SVM _mod(scaled_data,targets,train_index,test_index,'rbf',1,0.1);
